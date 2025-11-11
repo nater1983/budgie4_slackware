@@ -1,0 +1,30 @@
+# Common (GNOME + Budgie shared deps)
+libstemmer
+bubblewrap
+xdg-dbus-proxy
+flatpak
+libadwaita
+libcloudproviders
+libostree
+libshumate
+evolution-data-server
+libjxl
+webkit2gtk4.1
+flite
+webkit2gtk6.0
+protobuf-c
+imlib2
+libei
+openrc-settingsd
+# Budgie
+budgie-backgrounds
+budgie-control-center
+budgie-desktop
+budgie-desktop-view
+budgie-session
+budgie-screensaver
+magpiewm
+# Lightdm greeter works with lightdm-gtk-greeter
+lightdm-gtk-greeter
+lightdm
+papirus-icon-theme
