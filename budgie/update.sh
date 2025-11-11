@@ -1,14 +1,14 @@
 #!/bin/bash
 # ------------------------------------------
-# Pantheon + Dependencies Source Tarball Generator
+# Budgie + Dependencies Source Tarball Generator
 # (Slackware-friendly, supports partial categories)
 # ------------------------------------------
 
 set -e
 
 ROOT_DIR="$(pwd)"
-GITHUB_BASE_URL="https://github.com/elementary"
-DEST_DIR="/opt/htdocs/linux/pantheon/source-8/src"
+GITHUB_BASE_URL="https://github.com/BuddiesOfBudgie"
+DEST_DIR="/opt/htdocs/linux/budgie/source/src"
 
 mkdir -p "$DEST_DIR"
 
@@ -26,69 +26,12 @@ NC='\033[0m'
 # 1. Pantheon Core Components
 # -------------------------------
 declare -A CORE_REPOS=(
-  ["granite"]="granite"
-  ["gala"]="gala"
-  ["pantheon-shell"]="session-settings"
-  ["dock"]="dock"
-  ["switchboard"]="switchboard"
-  ["session-settings"]="session-settings"
-  ["settings-applications"]="settings-applications"
-  ["settings-bluetooth"]="settings-bluetooth"
-  ["settings-datetime"]="settings-datetime"
-  ["settings-display"]="settings-display"
-  ["settings-keyboard"]="settings-keyboard"
-  ["settings-locale"]="settings-locale"
-  ["settings-network"]="settings-network"
-  ["settings-notifications"]="settings-notifications"
-  ["settings-desktop"]="settings-desktop"
-  ["settings-onlineaccounts"]="settings-onlineaccounts"
-  ["settings-power"]="settings-power"
-  ["settings-printers"]="settings-printers"
-  ["settings-sharing"]="settings-sharing"
-  ["settings-sound"]="settings-sound"
-  ["settings-system"]="settings-system"
-  ["settings-useraccounts"]="settings-useraccounts"
-  ["settings-wacom"]="settings-wacom"
-  ["wingpanel"]="wingpanel"
-  ["panel-applications"]="applications-menu"
-  ["panel-bluetooth"]="panel-bluetooth"
-  ["panel-datetime"]="panel-datetime"
-  ["panel-keyboard"]="panel-keyboard"
-  ["panel-network"]="wingpanel-indicator-network"
-  ["panel-nightlight"]="panel-nightlight"
-  ["panel-notifications"]="wingpanel-indicator-notifications"
-  ["panel-power"]="panel-power"
-  ["panel-settings"]="quick-settings"
-  ["panel-sound"]="wingpanel-indicator-sound"
-)
-
-# -------------------------------
-# 2. Pantheon Applications
-# -------------------------------
-declare -A APPS_REPOS=(
-  ["appcenter"]="appcenter"
-  ["calendar"]="calendar"
-  ["calculator"]="calculator"
-  ["camera"]="camera"
-  ["code"]="code"
-  ["files"]="files"
-  ["icons"]="icons"
-  ["mail"]="mail"
-  ["music"]="music"
-  ["photos"]="photos"
-  ["screenshot"]="screenshot"
-  ["tasks"]="tasks"
-  ["terminal"]="terminal"
-  ["videos"]="videos"
-)
-
-# -------------------------------
-# 3. Pantheon Dependencies
-# -------------------------------
-declare -A EXTRA_REPOS=(
-  ["contractor"]="contractor"
-  ["notifications"]="notifications"
-  ["print"]="print"
+  ["magpiewm"]="magpie"
+  ["budgie-session"]="budgie-session"
+  ["budgie-desktop-view"]="budgie-desktop-view"
+  ["budgie-control-center"]="budgie-control-center"
+  ["budgie-backgrounds"]="budgie-backgrounds"
+  ["budgie-desktop"]="budgie-desktop"
 )
 
 # -------------------------------
