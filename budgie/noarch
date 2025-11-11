@@ -1,10 +1,6 @@
 # List packages with an $ARCH of "noarch" (i.e. packages
 # that contain no binaries) here:
-elementary-wallpapers
+budgie-backgrounds
 xvfb-run
 gnome-common
-elementary-stylesheet
-pantheon-default-settings
-elementary-fonts
-pantheon-shell
 papirus-icon-theme
