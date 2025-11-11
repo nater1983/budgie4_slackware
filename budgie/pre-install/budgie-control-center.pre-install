@@ -1,0 +1,1 @@
+cp $CWD/pre-install/budgie-control-center/budgie-slack-logo.png panels/info-overview/budgie-logo.png || exit 1
