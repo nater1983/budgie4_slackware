@@ -1,0 +1,3 @@
+install -vDm 0755 $CWD/post-install/openrc-settingsd/rc.openrc-settingsd.new -t $PKG/etc/rc.d/
+install -vDm 0644 $CWD/post-install/openrc-settingsd/openrc-listener.desktop -t $PKG/etc/xdg/autostart
+install -vDm 0755 $CWD/post-install/openrc-settingsd/openrc-listener -t $PKG/bin/

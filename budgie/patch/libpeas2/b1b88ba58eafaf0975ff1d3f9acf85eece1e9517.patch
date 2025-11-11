@@ -1,0 +1,25 @@
+diff --git a/meson.build b/meson.build
+index 1a552da..84bd3de 100644
+--- a/meson.build
++++ b/meson.build
+@@ -427,7 +427,7 @@ subdir('po')
+ 
+ subdir('loaders')
+ 
+-if generate_gir == true
++if get_option('tests')
+   subdir('tests')
+ endif
+
+diff --git a/meson_options.txt b/meson_options.txt
+index 4ca6ab5..a8691b4 100644
+--- a/meson_options.txt
++++ b/meson_options.txt
+@@ -24,3 +24,7 @@ option('vapi',
+ option('gtk_doc',
+        type: 'boolean', value: false,
+        description: 'Build reference manual (requires gi-docgen)')
++
++option('tests', 
++       type: 'boolean', value: true, 
++       description : 'Build unit tests')

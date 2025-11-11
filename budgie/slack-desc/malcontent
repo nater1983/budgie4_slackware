@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+        |-----handy-ruler------------------------------------------------------|
+malcontent: malcontent
+malcontent:
+malcontent: malcontent implements support for restricting the type of content
+malcontent: accessible to non-administrator accounts on a Linux system.
+malcontent: Typically, when this is used, a non-administrator account will be for
+malcontent: a child using the system; and the administrator accounts will be for
+malcontent: the parents; and the content being filtered will be apps which are
+malcontent: not suitable for the child to use, due to (for example) being too
+malcontent: violent.
+malcontent:
+malcontent: https://gitlab.freedesktop.org/pwithnall/malcontent/

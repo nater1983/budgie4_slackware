@@ -1,0 +1,2 @@
+# Remove Gnome specific files for wayland-session and xsession
+rm -fr $PKG/usr/share/{wayland-sessions,xsessions}
