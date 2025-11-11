@@ -1,7 +1,5 @@
 # Common (GNOME + Pantheon shared deps)
 libstemmer
-libfyaml
-AppStream
 bubblewrap
 xdg-dbus-proxy
 flatpak
