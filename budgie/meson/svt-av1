@@ -1,7 +1,7 @@
 mkdir cmake-build
 cd cmake-build
   cmake .. \
-    "${PANTHEON_CMAKE_ARGS[@]}"
+    "${BUDGIE_CMAKE_ARGS[@]}"
 make -C ../cmake-build
 make -C ../cmake-build install DESTDIR=$PKG
 
@@ -11,7 +11,7 @@ sed -i '82s|LIBRARY DESTINATION .*|LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}/g
 mkdir cmake-build
 cd cmake-build
   cmake .. \
-    "${PANTHEON_CMAKE_ARGS[@]}"
+    "${BUDGIE_CMAKE_ARGS[@]}"
 make -C ../cmake-build
 make -C ../cmake-build install DESTDIR=$PKG
 

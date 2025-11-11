@@ -5,8 +5,8 @@ cd build
   CFLAGS="$SLKCFLAGS" \
   CXXFLAGS="$SLKCFLAGS" \
   meson setup ..\
-    "${PANTHEON_BUILD_ARGS[@]}" \
-    $PANTHEON_OPT_ARGS \
+    "${BUDGIE_BUILD_ARGS[@]}" \
+    $BUDGIE_OPT_ARGS \
     -Dgtk_doc=false
   "${NINJA:=ninja}"
   DESTDIR=$PKG $NINJA install

@@ -3,7 +3,7 @@ sed -i '/install(CODE "execute_process(COMMAND/ s|\${CMAKE_INSTALL_PREFIX}/||g' 
 mkdir cmake-build
 cd cmake-build
   cmake .. \
-    "${PANTHEON_CMAKE_ARGS[@]}" \
+    "${BUDGIE_CMAKE_ARGS[@]}" \
     -DWITH_LIBDE265_PLUGIN:BOOL=ON \
     -DWITH_FFMPEG_DECODER=ON \
     -DWITH_X265=ON \

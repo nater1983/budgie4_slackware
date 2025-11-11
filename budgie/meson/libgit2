@@ -1,7 +1,7 @@
 mkdir cmake-build
 cd cmake-build
   cmake "Unix Makefiles" .. \
-    "${PANTHEON_CMAKE_ARGS[@]}" \
+    "${BUDGIE_CMAKE_ARGS[@]}" \
     -DREGEX_BACKEND=pcre \
     -DUSE_SHA1=HTTPS \
     -DUSE_HTTPS=OpenSSL \

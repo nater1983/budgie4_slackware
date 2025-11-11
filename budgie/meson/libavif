@@ -1,7 +1,7 @@
 mkdir cmake-build
 cd cmake-build
   cmake .. \
-    "${PANTHEON_CMAKE_ARGS[@]}" \
+    "${BUDGIE_CMAKE_ARGS[@]}" \
     -DAVIF_ENABLE_WERROR:BOOL=OFF \
     -DAVIF_CODEC_AOM=SYSTEM \
     -DAVIF_CODEC_AOM_DECODE:BOOL=ON \

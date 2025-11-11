@@ -1,7 +1,7 @@
 mkdir cmake-build
 cd cmake-build
   cmake .. \
-    "${PANTHEON_CMAKE_ARGS[@]}" \
+    "${BUDGIE_CMAKE_ARGS[@]}" \
     -DJPEGXL_ENABLE_JNI:BOOL='false' \
     -DJPEGXL_ENABLE_JPEGLI:BOOL='false' \
     -DJPEGXL_ENABLE_OPENEXR:BOOL='true' \

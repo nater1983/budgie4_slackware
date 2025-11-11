@@ -4,8 +4,8 @@ cd build
   CFLAGS="$SLKCFLAGS" \
   CXXFLAGS="$SLKCFLAGS" \
   meson setup ..\
-    "${PANTHEON_BUILD_ARGS[@]}" \
-    $PANTHEON_OPT_ARGS \
+    "${BUDGIE_BUILD_ARGS[@]}" \
+    $BUDGIE_OPT_ARGS \
     -Ddocbook=false \
     -Dlogind_provider=elogind
   "${NINJA:=ninja}"
