@@ -56,3 +56,5 @@ libdisplay-info
 appstream-glib
 mozjs140
 gtksourceview4
+libfyaml
+appstream
