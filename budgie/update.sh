@@ -8,7 +8,7 @@ set -e
 
 ROOT_DIR="$(pwd)"
 GITHUB_BASE_URL="https://github.com/BuddiesOfBudgie"
-DEST_DIR="/opt/htdocs/linux/budgie/source/src"
+DEST_DIR="/opt/htdocs/linux/budgie/source-10/src"
 
 mkdir -p "$DEST_DIR"
 
