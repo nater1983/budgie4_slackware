@@ -1,0 +1,3 @@
+# correct desktop entry
+sed -i  's/Comment=Budgie Background Services/Comment=budgie-desktop Background Services/' \
+	src/daemon/budgie-daemon.desktop.in;
