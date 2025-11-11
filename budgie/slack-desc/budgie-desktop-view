@@ -6,13 +6,13 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
                    |-----handy-ruler------------------------------------------------------|
-budgie-desktop-view: budgie-desktop-view ( Budgie Desktop icons implementation )
+budgie-desktop-view: budgie-desktop-view (budgie icon viewer application)
 budgie-desktop-view:
+budgie-desktop-view: Budgie Desktop View is the official Budgie desktop icons
+budgie-desktop-view: application / implementation.
 budgie-desktop-view:
+budgie-desktop-view: Homepage: https://github.com/BuddiesOfBudgie/budgie-desktop-view
 budgie-desktop-view:
-budgie-desktop-view:
-budgie-desktop-view:
-budgie-desktop-view: https://github.com/BuddiesOfBudgie/budgie-desktop-view
 budgie-desktop-view:
 budgie-desktop-view:
 budgie-desktop-view:
