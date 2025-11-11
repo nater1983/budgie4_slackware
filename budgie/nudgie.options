@@ -2,7 +2,7 @@
 # package versions are determined by their source tarball.
 
 [ -z $BUILD ] && export BUILD=1
-[ -z $TAG ] && export TAG=_psb
+[ -z $TAG ] && export TAG=_bsb
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -64,11 +64,11 @@ export NUMJOBS
 
 # Additional cmake flags that are spanned across the KDE modules
 # Do not use "final build" unless we build an actual release.
-export PANTHEON_OPT_ARGS=" \
+export BUDGIE_OPT_ARGS=" \
  "
 
-# PANTHEON cmake specific flags:
-export PANTHEON_CMAKE_ARGS=(
+# BUDGIE cmake specific flags:
+export BUDGIE_CMAKE_ARGS=(
   "-DCMAKE_C_FLAGS:STRING=$SLKCFLAGS"
   "-DCMAKE_C_FLAGS_RELEASE:STRING=$SLKCFLAGS"
   "-DCMAKE_CXX_FLAGS:STRING=$SLKCFLAGS"
@@ -86,7 +86,7 @@ export PANTHEON_CMAKE_ARGS=(
 )
 
 # Double-quoting required because $SLKCFLAGS contains spaces:
-export PANTHEON_BUILD_ARGS=(
+export BUDGIE_BUILD_ARGS=(
     --buildtype=release
     --infodir=/usr/info
     --libdir=/usr/lib${LIBDIRSUFFIX}
@@ -104,7 +104,7 @@ export PANTHEON_BUILD_ARGS=(
  )
 
 # Double-quoting required because $SLKCFLAGS contains spaces:
-export PANTHEON_MAKE_ARGS=(
+export BUDGIE_MAKE_ARGS=(
   --prefix=/usr
   --libdir=/usr/lib${LIBDIRSUFFIX}
   --sysconfdir=/etc
