@@ -1,7 +1,7 @@
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --with-systemdsystemunitdir=no \
     --enable-tests \
     --disable-static \

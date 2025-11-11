@@ -3,7 +3,7 @@ autoreconf -if
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --enable-dii \
     --enable-libpst-shared \
     --enable-python

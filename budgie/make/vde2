@@ -4,7 +4,7 @@ autoreconf -vif
 CFLAGS="$SLKCFLAGS -std=gnu17" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --enable-shared=yes
 make
 make install DESTDIR=$PKG

@@ -2,7 +2,7 @@ env NOCONFIGURE=1 ./autogen.sh
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --docdir=/usr/doc/$PKGNAME-$MODULAR_PACKAGE_VERSION \
     --with-curl \
     --with-openssl \

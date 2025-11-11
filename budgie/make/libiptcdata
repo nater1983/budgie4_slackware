@@ -4,7 +4,7 @@ PYTHON=python3 \
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --enable-python \
     --disable-gtk-doc
 make

@@ -9,7 +9,7 @@ fi
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --libexecdir=/usr/lib${LIBDIRSUFFIX}/lightdm \
     --disable-tests \
     --with-greeter-user=lightdm  \

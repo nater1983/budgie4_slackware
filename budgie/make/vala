@@ -3,7 +3,7 @@ echo "0.57.0" | tee .tarball-version .version > /dev/null
 CFLAGS="$SLKCFLAGS -Wno-error=incompatible-pointer-types" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --docdir=/usr/doc/$PRGNAM-$VERSION
 
 # Hack to build if valac isn't already installed:

@@ -4,7 +4,7 @@ autoreconf -vif
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
-    "${PANTHEON_MAKE_ARGS[@]}" \
+    "${BUDGIE_MAKE_ARGS[@]}" \
     --disable-dependency-tracking \
     --disable-silent-rules \
     --enable-static=no \
