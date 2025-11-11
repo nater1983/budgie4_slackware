@@ -1,0 +1,6 @@
+[org.gnome.desktop.interface:Budgie]
+gtk-theme='Orchis-Dark'
+icon-theme='Tela-dark'
+
+[org.gnome.desktop.peripherals.touchpad:Budgie]
+click-method='default'
