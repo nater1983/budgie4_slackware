@@ -1,0 +1,12 @@
+mkdir -p build
+cd build
+  CFLAGS="$SLKCFLAGS" \
+  CXXFLAGS="$SLKCFLAGS" \
+  meson setup ..\
+    "${BUDGIE_BUILD_ARGS[@]}" \
+    $BUDGIE_OPT_ARGS \
+    -Dwith-systemd=false \
+    -Dwithout-kbd-layout-indicator=true
+  "${NINJA:=ninja}"
+  DESTDIR=$PKG $NINJA install
+cd ..
