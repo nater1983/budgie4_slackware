@@ -29,4 +29,5 @@ fi
 ##  Start Budgie                                                      ##
 ########################################################################
 
-exec /usr/bin/budgie-desktop
+export XDG_CURRENT_DESKTOP=Budgie:GNOME
+exec dbus-launch --exit-with-session budgie-desktop
