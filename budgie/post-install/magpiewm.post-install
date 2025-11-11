@@ -1,0 +1,5 @@
+install -Dm644 doc/man/magpie-restart-helper.1 \
+	"$PKG/usr/man/man1/magpie-restart-helper.1" || exit 1
+
+install -Dm644 doc/man/magpie.1 \
+	"$PKG/usr/man/man1/magpie.1" || exit 1
