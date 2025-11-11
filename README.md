@@ -6,3 +6,5 @@
 > LONG LIVE SLACKWARE!
 
 *Budgie from scratch*, *Bdugie for Slackware*
+
+Homepage: https://github.com/BuddiesOfBudgie/
