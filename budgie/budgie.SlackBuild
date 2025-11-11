@@ -530,25 +530,25 @@ deterministic_build() {
 # MAIN PART #
 
 # Import build configuration if present
-[ -r ./BUDGIE.options ] && . ./BUDGIE.options
+[ -r ./budgie.options ] && . ./budgie.options
 
-# If you have BUDGIE session env to export, you can source it here (optional):
-# [ -d post-install/BUDGIEenv ] && . ./post-install/BUDGIEenv/profile.d/BUDGIE.sh
+# If you have budgie session env to export, you can source it here (optional):
+# [ -d post-install/budgieenv ] && . ./post-install/budgieenv/profile.d/budgie.sh
 
-# Define BUDGIE module sets (adjust your modules/* files accordingly)
-# Typical core examples you might use in modules/BUDGIE:
+# Define budgie module sets (adjust your modules/* files accordingly)
+# Typical core examples you might use in modules/budgie:
 #  granite
 #  gala
 #  wingpanel
 #  slingshot
 #  switchboard
 #  elementary-icon-theme
-#  BUDGIE-session
+#  budgie-session
 #  ...
 BUDGIEMODS=" \
   blacklist \
   gnome \
-  BUDGIE \
+  budgie \
   "
 
 # Allow individual module selection
