@@ -59,14 +59,14 @@ process_repo() {
   # Determine latest tag (if any)
   local LATEST_TAG
   # Get only “clean” numeric tags (e.g., 8.0.1) ignoring -debian, -ubuntu, etc.
-  LATEST_TAG=$(git tag --sort=-v:refname | grep -E '^[0-9]+(\.[0-9]+)*$' | head -n1)
+  LATEST_TAG=$(git tag --sort=-v:refname | grep -E '^v?[0-9]+(\.[0-9]+)*$' | head -n1)
 
   local VERSION
   if [ -n "$LATEST_TAG" ]; then
     echo -e "${YELLOW}→ Checking out tag:${NC} $LATEST_TAG"
     # Use refs/tags/ explicitly to avoid ambiguity with branches
     git checkout -q "refs/tags/$LATEST_TAG"
-    VERSION="$LATEST_TAG"
+    VERSION=${LATEST_TAG#v}
   else
     echo -e "${YELLOW}⚠️  No tags found, using latest commit${NC}"
     VERSION=$(git log -1 --date=format:%Y%m%d --pretty=format:%cd.%h)
