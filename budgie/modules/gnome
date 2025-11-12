@@ -8,7 +8,6 @@ geoclue2
 geocode-glib
 gnome-common
 gnome-desktop
-gnome-settings-daemon
 gnome-menus
 gnome-online-accounts
 gnome-session
