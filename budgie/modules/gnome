@@ -13,6 +13,7 @@ gnome-online-accounts
 gnome-session
 gnome-settings-daemon
 gsettings-desktop-schemas
+gnome-bluetooth
 gtksourceview5
 libchamplain
 libgdata
