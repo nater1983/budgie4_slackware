@@ -20,10 +20,10 @@ openrc-settingsd
 jhead
 budgie-backgrounds
 budgie-control-center
+budgie-screensaver
 budgie-desktop
 budgie-desktop-view
 budgie-session
-budgie-screensaver
 magpiewm
 # Lightdm greeter works with lightdm-gtk-greeter
 lightdm-gtk-greeter
