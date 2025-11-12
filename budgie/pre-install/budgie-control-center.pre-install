@@ -1,1 +1,3 @@
 cp $CWD/pre-install/budgie-control-center/budgie-slack-logo.png panels/info-overview/budgie-logo.png || exit 1
+rm -fr subprobjects/gvc
+cp $CWD/pre-install/budgie-control-center/gvc.wrap subprojects/gvc.wrap
