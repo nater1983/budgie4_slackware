@@ -7,7 +7,7 @@ cd build
     $BUDGIE_OPT_ARGS \
     -Dsystemd=false \
     -Dsystemd_session=disable \
-    -Dsystemd_journal=false build
+    -Dsystemd_journal=false
   "${NINJA:=ninja}"
   DESTDIR=$PKG $NINJA install
 cd ..
