@@ -21,10 +21,10 @@ jhead
 budgie-backgrounds
 budgie-control-center
 budgie-screensaver
+magpiewm
 budgie-desktop
 budgie-desktop-view
 budgie-session
-magpiewm
 # Lightdm greeter works with lightdm-gtk-greeter
 lightdm-gtk-greeter
 lightdm
