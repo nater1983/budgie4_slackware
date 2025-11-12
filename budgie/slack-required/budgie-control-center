@@ -1,3 +1,5 @@
 gnome-desktop
 gnome-settings-daemon
 gnome-bluetooth
+gsound
+colord-gtk
