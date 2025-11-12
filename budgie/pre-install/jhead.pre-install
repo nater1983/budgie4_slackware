@@ -1,0 +1,3 @@
+sed -i 's|PREFIX=$(DESTDIR)/usr/local|PREFIX=$(DESTDIR)/usr/|' makefile
+sed -i 's|$(PREFIX)/share/|$(PREFIX)/|g' makefile
+
