@@ -32,6 +32,7 @@ declare -A CORE_REPOS=(
   ["budgie-control-center"]="budgie-control-center"
   ["budgie-backgrounds"]="budgie-backgrounds"
   ["budgie-desktop"]="budgie-desktop"
+  ["budgie-screensaver"]="budgie-screensaver"
 )
 
 # -------------------------------
