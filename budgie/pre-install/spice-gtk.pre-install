@@ -1,2 +1,0 @@
-rm -fr subprojects/*
-cp -av $CWD/pre-install/spice-gtk/*.wrap subprojects/

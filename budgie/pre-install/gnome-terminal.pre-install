@@ -1,1 +1,0 @@
-sed -i -r 's:"(/system):"/org/gnome\1:g' src/external.gschema.xml

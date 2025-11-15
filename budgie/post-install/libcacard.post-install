@@ -1,1 +1,0 @@
-sed -i 's/^Version: UNKNOWN$/Version: 2.8.1/' $PKG/usr/lib64/pkgconfig/libcacard.pc

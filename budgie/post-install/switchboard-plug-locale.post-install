@@ -1,2 +1,0 @@
-install -vDm755 $CWD/post-install/switchboard-plug-locale/language2locale -t $PKG/usr/share/language-tools/
-install -vDm644 $CWD/post-install/switchboard-plug-locale/main-countries -t $PKG/usr/share/language-tools/
