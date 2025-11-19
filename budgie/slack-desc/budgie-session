@@ -6,14 +6,16 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
               |-----handy-ruler------------------------------------------------------|
-budgie-session: budgie-session (short description of app)
+budgie-session: budgie-session (Budgie Desktop session manager)
 budgie-session:
-budgie-session: Long description of @PRGNAM@, wrapped at 71 characters *after* the
-budgie-session: colon following "@PRGNAM@" (and the 'handy ruler' should start at
-budgie-session: that colon and be exactly 71 characters long).
-budgie-session: If there is room, there might be a link to the homepage of the
-budgie-session: application on one of these lines, but it's not necessary.
+budgie-session: Budgie Session is a softish fork of gnome-session, designed to provide
+budgie-session: a stable session manager for Budgie 10.x 
 budgie-session:
-budgie-session: The maximum number of lines prefixed by "budgie-session:" is 11.
-budgie-session: Lines without any other text should *not* have a space after the :
+budgie-session: Homepage: https://github.com/BuddiesOfBudgie/budgie-session
 budgie-session:
+budgie-session:
+budgie-session:
+budgie-session:
+budgie-session:
+
+
