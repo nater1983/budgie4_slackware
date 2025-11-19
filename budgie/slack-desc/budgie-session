@@ -8,8 +8,8 @@
               |-----handy-ruler------------------------------------------------------|
 budgie-session: budgie-session (Budgie Desktop session manager)
 budgie-session:
-budgie-session: Budgie Session is a softish fork of gnome-session, designed to provide
-budgie-session: a stable session manager for Budgie 10.x 
+budgie-session: Budgie Session is a softish fork of gnome-session, designed to
+budgie-session: provide a stable session manager for Budgie 10.x series.
 budgie-session:
 budgie-session: Homepage: https://github.com/BuddiesOfBudgie/budgie-session
 budgie-session:
