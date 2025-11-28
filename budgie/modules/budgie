@@ -25,6 +25,8 @@ magpiewm
 budgie-desktop
 budgie-desktop-view
 budgie-session
+xdg-desktop-portal-wlr
+xdg-desktop-portal-gtk
 # Lightdm greeter works with lightdm-gtk-greeter
 lightdm-gtk-greeter
 lightdm
