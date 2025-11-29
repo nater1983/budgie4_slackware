@@ -1,1 +1,1 @@
-patch -Np1 -i $CWD/patch/budgie-desktop-view/05a9822a465a023968efb28c620e9448c82634db.patch
+patch -Np1 -i $CWD/patch/budgie-desktop-view/05a9822a465a023968efb28c620e9448c82634db.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }

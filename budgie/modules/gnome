@@ -3,6 +3,7 @@ bamf
 cogl
 clutter
 clutter-gst
+clutter-gtk
 evolution-data-server
 geoclue2
 geocode-glib

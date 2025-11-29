@@ -1,1 +1,1 @@
-patch -Np1 -i $CWD/patch/gnome-bluetooth/75123c43fa89a524a0a3486f403c55af40aa7b87.patch
+patch -Np1 -i $CWD/patch/gnome-bluetooth/75123c43fa89a524a0a3486f403c55af40aa7b87.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
