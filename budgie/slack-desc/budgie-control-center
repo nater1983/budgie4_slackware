@@ -8,12 +8,12 @@
                      |-----handy-ruler------------------------------------------------------|
 budgie-control-center: budgie-control-center ( Budgie Settings)
 budgie-control-center:
-budgie-control-center: Budgie's main interface to configure various aspects of the system 
+budgie-control-center: Budgie Control Center is a fork of GNOME Settings / GNOME Control
+budgie-control-center: Center with the intent of providing a simplified list of settings
+budgie-control-center: that are applicable to the Budgie 10 series, along with any small
+budgie-control-center: quality-of-life settings.
 budgie-control-center:
+budgie-control-center: Homepage: https://github.com/BuddiesOfBudgie/budgie-control-center
 budgie-control-center:
-budgie-control-center:
-budgie-control-center:
-budgie-control-center:
-budgie-control-center: https://github.com/BuddiesOfBudgie/budgie-control-center
 budgie-control-center:
 budgie-control-center:
