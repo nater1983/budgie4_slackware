@@ -35,6 +35,16 @@ declare -A CORE_REPOS=(
   ["budgie-screensaver"]="budgie-screensaver"
 )
 
+declare -A APPS_REPOS=(
+  # ["budgie-welcome"]="budgie-welcome"
+  # ["budgie-app-launcher"]="budgie-app-launcher"
+)
+
+declare -A EXTRA_REPOS=(
+  # ["libpeas"]="GNOME/libpeas"
+  # ["mutter"]="GNOME/mutter"
+)
+
 # -------------------------------
 # Process a single repository
 # -------------------------------
@@ -60,7 +70,14 @@ process_repo() {
   # Determine latest tag (if any)
   local LATEST_TAG
   # Get only “clean” numeric tags (e.g., 8.0.1) ignoring -debian, -ubuntu, etc.
-  LATEST_TAG=$(git tag --sort=-v:refname | grep -E '^v?[0-9]+(\.[0-9]+)*$' | head -n1)
+  LATEST_TAG=$(
+    git for-each-ref --sort=-creatordate --format '%(refname:short)' refs/tags |
+    grep -Ei '^v?[0-9]+(\.[0-9]+)*(-preview[.-]?[0-9]*|-beta[.-]?[0-9]*|-rc[.-]?[0-9]*)?$' |
+    head -n1
+  )
+  
+  # Original code:
+  # /*LATEST_TAG=$(git tag --sort=-v:refname | grep -E '^v?[0-9]+(\.[0-9]+)*$' | head -n1)*/
 
   local VERSION
   if [ -n "$LATEST_TAG" ]; then
