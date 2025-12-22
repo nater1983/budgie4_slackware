@@ -1,0 +1,8 @@
+mkdir cmake-build
+cd cmake-build
+  cmake .. \
+    "${BUDGIE_CMAKE_ARGS[@]}" \
+    "${BUDGIE_CMAKE_OPT_ARGS[@]}" \
+    -DOPTIPNG_USE_SYSTEM_LIBS=ON
+make -C ../cmake-build
+make -C ../cmake-build install DESTDIR=$PKG
