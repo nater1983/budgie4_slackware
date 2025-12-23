@@ -3,3 +3,7 @@ libpeas2
 budgie-screensaver
 zenity
 magpiewm
+gnome-settings-daemon
+wlopm
+swayidle
+gammastep
