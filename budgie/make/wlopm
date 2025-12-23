@@ -1,2 +1,2 @@
 make
-make install DESTDIR=$PKG
+make install PREFIX=$PKG
