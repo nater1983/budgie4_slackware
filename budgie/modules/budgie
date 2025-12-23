@@ -23,12 +23,14 @@ budgie-backgrounds
 budgie-control-center
 budgie-screensaver
 magpiewm
+# Budgie 10.0 Deps for Wayland
 wlopm
 swayidle
 python3-xdg-base-dirs
 gammastep
 grim
 slurp
+swaybg
 budgie-desktop
 budgie-desktop-view
 budgie-session
