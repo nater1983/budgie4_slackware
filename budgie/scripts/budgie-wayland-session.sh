@@ -1,8 +1,8 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
 # Purpose: A script to checkout sources for GNOME from the
-git repositories and create versioned tarballs of them.
-# Author:  Adapted for Pantheon
+# git repositories and create versioned tarballs of them.
+# Author:  Adapted for BUDGIE
 # Date:    20240101
 # -----------------------------------------------------------------------------
 
@@ -24,14 +24,14 @@ FORCE="NO"
 MYDIR="${CWD}/src"
 
 # GNOME Git repositories:
-GNOMEGITURI="https://git.launchpad.net/"
+GNOMEGITURI="https://github.com/BuddiesOfBudgie/"
 
 # Default list of modules to checkout:
-DEFMODS="bamf"
+DEFMODS="budgie-wayland-session"
 
 # Preferred branch to check out from if it exists (HEAD otherwise):
-DEFBRANCH="master"
-#DEFBRANCH="main"
+#DEFBRANCH="master"
+DEFBRANCH="main"
 
 # Shrink the tarball by removing git repository metadata:
 SHRINK="YES"
