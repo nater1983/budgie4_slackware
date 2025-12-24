@@ -2,7 +2,7 @@
 # -----------------------------------------------------------------------------
 # Purpose: A script to checkout sources for GNOME from the
 git repositories and create versioned tarballs of them.
-# Author:  Adapted for PANTHEON
+# Author:  Adapted for BUDGIE
 # Date:    20240101
 # -----------------------------------------------------------------------------
 
@@ -24,13 +24,13 @@ FORCE="NO"
 MYDIR="${CWD}/src"
 
 # GNOME Git repositories:
-GNOMEGITURI="https://github.com/thecalamityjoe87/"
+GNOMEGITURI="https://github.com/BuddiesOfBudgie/"
 
 # Default list of modules to checkout:
-DEFMODS="desktopfolder"
+DEFMODS="magpie"
 
 # Preferred branch to check out from if it exists (HEAD otherwise):
-DEFBRANCH="master"
+DEFBRANCH="a9cfac5a381968741dd27a5e3f971af8fe3126c7"
 #DEFBRANCH="main"
 
 # Shrink the tarball by removing git repository metadata:
