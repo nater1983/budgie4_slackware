@@ -1,0 +1,1 @@
+patch -Np1 -i $CWD/patch/budgie-control-center/gds-version-adjustment.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }

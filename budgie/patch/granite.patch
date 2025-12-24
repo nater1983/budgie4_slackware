@@ -1,1 +1,0 @@
-patch -Np1 -i $CWD/patch/granite/fix-version.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
