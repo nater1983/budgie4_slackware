@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                      |-----handy-ruler------------------------------------------------------|
+budgie-wayland-session: budgie-wayland-session (Budgie Magpie v1 Wayland Session)
+budgie-wayland-session:
+budgie-wayland-session: This package contains the scripts and data files for setting up the
+budgie-wayland-session: Budgie Desktop to run in a Wayland environment.
+budgie-wayland-session:
+budgie-wayland-session: Homepage: https://github.com/BuddiesOfBudgie/budgie-wayland-session
+budgie-wayland-session:
+budgie-wayland-session:
+budgie-wayland-session:
+budgie-wayland-session:
+budgie-wayland-session:
