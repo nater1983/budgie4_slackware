@@ -7,7 +7,3 @@ cd cmake-build
     -DSDDM=ON
 make -C ../cmake-build
 make -C ../cmake-build install DESTDIR=$PKG
-
-mkdir -p $PKG/etc/
-mv $PKG/usr/lib/sddm/sddm.conf.d $PKG/etc
-rm -fr $PKG/usr/lib
