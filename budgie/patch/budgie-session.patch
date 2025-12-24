@@ -1,0 +1,1 @@
+patch -Np1 -i $CWD/patch/budgie-session/0001-meson-Support-elogind.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
