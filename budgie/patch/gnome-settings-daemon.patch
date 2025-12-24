@@ -1,1 +1,3 @@
-patch -Np1 -i $CWD/patch/gnome-settings-daemon/242752d489b40f7cac20fc244a76eac8572cd955.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
+#patch -Np1 -i $CWD/patch/gnome-settings-daemon/242752d489b40f7cac20fc244a76eac8572cd955.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
+patch -Np1 -i $CWD/patch/gnome-settings-daemon/keyboard-Use-ibus-sources-from-locale.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
+patch -Np1 -i $CWD/patch/gnome-settings-daemon/keyboard-sync-input-sources-to-accountsservice.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
