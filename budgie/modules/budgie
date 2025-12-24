@@ -24,6 +24,7 @@ budgie-control-center
 budgie-screensaver
 magpiewm
 magpiewm1
+budgie-wayland-session
 # Budgie 10.0 Deps for Wayland
 wlopm
 swayidle
