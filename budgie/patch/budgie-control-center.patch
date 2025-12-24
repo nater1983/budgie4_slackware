@@ -1,1 +1,5 @@
+patch -Np1 -i $CWD/patch/budgie-control-center/0001-build-Restore-options-for-bluetooth-NetworkManager-a.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
+patch -Np1 -i $CWD/patch/budgie-control-center/0002-build-Make-kerberos-optional.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
+patch -Np1 -i $CWD/patch/budgie-control-center/0004-build-Make-printers-panel-cups-optional.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
+patch -Np1 -i $CWD/patch/budgie-control-center/0005-Fix-absolute-paths-to-be-dependent-on-build-configur.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
 patch -Np1 -i $CWD/patch/budgie-control-center/gds-version-adjustment.patch || { touch ${SLACK_BUDGIE_BUILD_DIR}/${PKGNAME}.failed ; continue ; }
