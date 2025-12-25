@@ -22,6 +22,6 @@ libgweather4
 libpeas
 libpeas2
 librest
+sysprof
 mutter
 orca
-sysprof
