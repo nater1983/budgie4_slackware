@@ -22,6 +22,7 @@ libgweather4
 libpeas
 libpeas2
 librest
+libdex
 sysprof
 mutter
 orca
