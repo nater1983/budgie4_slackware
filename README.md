@@ -5,6 +5,6 @@
 > the present is our past.
 > LONG LIVE SLACKWARE!
 
-*Budgie from scratch*, *Bdugie for Slackware*
+*Budgie from scratch*, *Budgie for Slackware*
 
 Homepage: https://github.com/BuddiesOfBudgie/
